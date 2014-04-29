@@ -1,17 +1,11 @@
-# OmniFocus to Reminders
+# OmniFocus to Reminders 
 
-## Update ##
-
-As of 2013-06-07, the AppleScripts have been removed from this repo. I am no longer a OmniFocus user. It would be irresponsible and careless of me to provide AppleScript that I have no intention to support.
-
-If you are interested in maintaining the scripts for future use, feel free to contact me.
-
-## Overview
+## Overview 
 
 Three Applescripts to help send OmniFocus tasks to Reminders app
 
 - **of2reminders** - Send OmniFocus task to Reminders by selection (supports multiple selections)
-- **of2reminders-batch** - Send OmniFocus task to Reminders in batch.
+- **of2reminders-batch** - Send OmniFocus task to Reminders in batch. 
 - **of2reminders-sync** - Sync task completion status when task is completed in Reminders App
 
 ## Use Case
@@ -23,7 +17,7 @@ via Reminders.
 
 of2reminders and of2reminders-batch can be configured as such:
 
-### Property: cleanUp ###
+### Property: cleanUp ### 
 
 - If you want to keep the OmniFocus task active after sending it to Reminders, set cleanUp to "link"
 - If you want to complete the OmniFocus task after sending it to Reminders app, set cleanUp to "complete"
@@ -37,7 +31,7 @@ of2reminders and of2reminders-batch can be configured as such:
 
 ### Property contextList ###
 
-A list of whichever OmniFocus context names you want to send to Reminders in Batch. NB: The context names must match the names of the Reminders lists.
+A list of whichever OmniFocus context names you want to send to Reminders in Batch. NB: The context names must match the names of the Reminders lists. 
 
 ### Property defaultList ###
 
@@ -52,7 +46,7 @@ The name of your default Reminders List
 When using of2reminders-Batch:
 
 - In order to send tasks to multiple Reminders lists, the names of the Reminders lists **MUST MATCH** the OmniFocus context name.
-- To use of2reminders-sync script, the notes added to both the OmniFocus and Reminders tasks MUST exist.
+- To use of2reminders-sync script, the notes added to both the OmniFocus and Reminders tasks MUST exist. 
 
 ## Notes ##
 
